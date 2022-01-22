@@ -15,7 +15,7 @@ print("You",end='\t')
 emoji(user)
 computer=random.choice(['r','p','s'])
 emoji(computer)
-print(f"computer guess")
+print(f"computer")
 who_wins= wincal(user,computer)
 if who_wins =='w':
     print("You won")
